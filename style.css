@@ -1,0 +1,127 @@
+header{
+	margin-top: 10px;
+	margin-bottom: 50px;
+	font-size: 25px;
+	text-transform: uppercase;
+	text-align: center;
+	border: none;
+}
+#todolist{
+	font-weight: bold;
+	font-size: 25px;
+	margin-bottom: 0px;
+	
+}
+
+#rubygarage{
+	font-size: 18px;
+}
+footer{
+	font-size: 14px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+#btn_add{
+	margin-top: 50px;
+	text-align:center;
+	font-size:20px;
+}
+#btn_add button{
+	font-size: 20px;
+}
+.conteiner{
+	display: block;
+	margin-right: 150px;
+	margin-left: 150px;
+	background-color: white;
+}
+#completed-tasks label{
+	color: #888;
+	text-decoration:line-through;
+}
+
+li{
+	color: #999999;
+	font-weight: bold;
+	overflow: hidden;
+	padding: 20px 0;
+	border-bottom: 1px solid #eee;
+}
+li > input[type="checkbox"]{
+	margin: 0 10px;
+	position: relative;
+	border-right: 1px solid #eee;
+}
+.glyphicon-trash{
+	cursor: pointer;
+}
+div.panel-body span.glyphicon-plus{
+	color: #5C9276;
+	font-size: 25px;
+	margin-top: 6px;
+	margin-right: 5px;
+	float: left;
+	cursor: pointer;
+}
+.panel-body{
+	border-bottom: 1px solid #fff;
+}
+li > span{
+	float:right;
+    color:#98B0D2;
+   border-left: 1px solid #98B0D2;
+	padding-left: 5px;
+	margin-right: 20px;
+	font-size: 17px;
+	
+}
+.task-name{
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
+	font-size: 17px;
+}
+.hello{
+	
+}
+
+div.panel-heading{
+	font-size: 20px;
+}
+.validation{
+	border: 1px solid red;
+}
+
+.row {
+	    margin-bottom:10px;
+	    width:220px;
+		margin-left: 10px;
+	}
+.row label {
+	        display:block;
+	        font-weight:bold;
+	    }
+.row input.text {
+	        font-size:1.2em;
+	        padding:2px 5px;
+	    }
+.to_reg {
+	    font-size:0.9em;
+	}
+
+.error {
+	    color:red;
+	    margin-left:3px;
+	}
+#reg_log{
+		float: right;
+		padding-right: 150px;
+	}
+#namef{
+	color: red;
+	margin-left: 30px;
+	padding-top: 10px;
+}
+@import "css/reset.css";
+
